@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       RECOVERY_URL:
-        description: 'RECOVERY URL'
+        description: '.github/workflows/recovery.yml'
         required: true
         default: 'https://www.filesend.jp/l/en-US/'
 
